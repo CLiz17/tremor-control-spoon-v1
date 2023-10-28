@@ -1,17 +1,17 @@
 # Tremor-Stabilizing Spoon with MPU6050 and Servo Motor
 
-![Tremor-Stabilizing Spoon](spoon.jpg)
+<img src="images/spoon.jpg" width=50%>
 
 This project is designed to create a tremor-stabilizing spoon using an MPU6050 sensor and a servo motor. The spoon's position is adjusted to compensate for hand tremors, allowing individuals with essential tremors, Parkinson's disease, or other conditions to eat more easily and independently.
 
-## Table of Contents
+**Table of Contents**
 
 - [Hardware Requirements](#hardware-requirements)
 - [Software Requirements](#software-requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Circuit Schematic](#circuit-schematic)
-- [Flowcharts](#flowcharts)
+- [Flow Diagrams](#flowdiagrams)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -67,25 +67,27 @@ Once you have assembled the hardware and uploaded the code, you can use the trem
 
 ## Circuit Schematic
 
-![Circuit Schematic](circuit.png)
+![Circuit Schematic](images/circuit.png)
 _Description_: This schematic diagram illustrates the circuit design of the tremor-stabilizing spoon system, showing the connections between the MPU6050 sensor, servo motor, and other components.
 
-## Flowcharts
+## Flowdigrams
 
-### Flowchart 1: System Overview
+**Flow Diagram 1: System Overview**
 
-![System Overview](tremor-control-flow.png)
-_Description_: This flowchart provides an overview of the tremor-stabilizing spoon system.
+![System Overview](flowdiagrams/tremor-control-flow.png)
+_Description_: This flow diagram provides an overview of the tremor-stabilizing spoon system.
 
-### Flowchart 2: Control Algorithm
+**Flow Diagram 2: Control Algorithm**
 
-![Control Algorithm](servo-feedback.png)
-_Description_: This flowchart illustrates the control algorithm used to adjust the servo motor based on MPU6050 sensor data.
+![Control Algorithm](flowdiagrams/servo-feedback.png)
+_Description_: This flow diagram illustrates the control algorithm used to adjust the servo motor based on MPU6050 sensor data.
 
-### Flowchart 3: Data Processing
+**Flow Diagram 3: Data Processing**
 
-![Data Processing](soft-code.png)
-_Description_: This flowchart details the data processing steps within the system.
+![Data Processing](flowdiagrams/soft-code.png)
+_Description_: This flow diagram details the data processing steps within the system.
+
+---
 
 ## Contributing
 
