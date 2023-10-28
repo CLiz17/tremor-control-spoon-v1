@@ -1,6 +1,6 @@
 # Tremor-Stabilizing Spoon with MPU6050 and Servo Motor
 
-![Tremor-Stabilizing Spoon](tremor_stabilizing_spoon.jpg)
+![Tremor-Stabilizing Spoon](spoon.jpg)
 
 This project is designed to create a tremor-stabilizing spoon using an MPU6050 sensor and a servo motor. The spoon's position is adjusted to compensate for hand tremors, allowing individuals with essential tremors, Parkinson's disease, or other conditions to eat more easily and independently.
 
@@ -67,25 +67,25 @@ Once you have assembled the hardware and uploaded the code, you can use the trem
 
 ## Circuit Schematic
 
-![Circuit Schematic](URL_TO_CIRCUIT_SCHEMATIC)
-*Description*: This schematic diagram illustrates the circuit design of the tremor-stabilizing spoon system, showing the connections between the MPU6050 sensor, servo motor, and other components.
+![Circuit Schematic](circuit.png)
+_Description_: This schematic diagram illustrates the circuit design of the tremor-stabilizing spoon system, showing the connections between the MPU6050 sensor, servo motor, and other components.
 
 ## Flowcharts
 
 ### Flowchart 1: System Overview
 
-![System Overview](URL_TO_FLOWCHART_1)
-*Description*: This flowchart provides an overview of the tremor-stabilizing spoon system.
+![System Overview](tremor-control-flow.png)
+_Description_: This flowchart provides an overview of the tremor-stabilizing spoon system.
 
 ### Flowchart 2: Control Algorithm
 
-![Control Algorithm](URL_TO_FLOWCHART_2)
-*Description*: This flowchart illustrates the control algorithm used to adjust the servo motor based on MPU6050 sensor data.
+![Control Algorithm](servo-feedback.png)
+_Description_: This flowchart illustrates the control algorithm used to adjust the servo motor based on MPU6050 sensor data.
 
 ### Flowchart 3: Data Processing
 
-![Data Processing](URL_TO_FLOWCHART_3)
-*Description*: This flowchart details the data processing steps within the system.
+![Data Processing](soft-code.png)
+_Description_: This flowchart details the data processing steps within the system.
 
 ## Contributing
 
