@@ -1,90 +1,28 @@
 # Tremor-Stabilizing Spoon with MPU6050 and Servo Motor
 
-<img src="images/spoon.jpg" width=50%>
+<img src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/f103bdef-0cf3-43b6-a307-1bf3cfd875a3" width="50%">
 
 This project is designed to create a tremor-stabilizing spoon using an MPU6050 sensor and a servo motor. The spoon's position is adjusted to compensate for hand tremors, allowing individuals with essential tremors, Parkinson's disease, or other conditions to eat more easily and independently.
 
-**Table of Contents**
-
-- [Hardware Requirements](#hardware-requirements)
-- [Software Requirements](#software-requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Circuit Schematic](#circuit-schematic)
-- [Flow Diagrams](#flowdiagrams)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Hardware Requirements
-
-To build the tremor-stabilizing spoon, you will need the following hardware components:
-
-1. **MPU6050 Sensor**: This sensor is used for motion sensing and provides data on the spoon's orientation.
-
-2. **Servo Motor**: The servo motor is responsible for adjusting the spoon's position based on the MPU6050's data.
-
-3. **Arduino Nano Board**: Any Arduino board with sufficient PWM pins and processing power can be used.
-
-4. **Power Supply**: Ensure you have a power supply suitable for your servo motor.
-
-5. **Spoon Attachment**: Design a spoon attachment to hold the spoon securely and allow it to be adjusted by the servo motor.
-
-## Software Requirements
-
-The software requirements for this project include:
-
-1. **Arduino IDE**: You will need the Arduino Integrated Development Environment to upload the code to your Arduino board.
-
-2. **MPU6050 Library**: Install the MPU6050 library for Arduino, which provides functions for working with the MPU6050 sensor.
-
-3. **Servo.h Library**: The Servo.h library is essential for controlling the servo motor in your setup.
-
-4. **Wire.h Library**: The Wire.h library is required for I2C communication with the MPU6050 sensor.
-
-## Installation
-
-1. **Clone the Repository**: Clone this GitHub repository to your local machine or download the source code.
-
-2. **Set Up Hardware**: Assemble the hardware components, including the MPU6050 sensor, servo motor, and spoon attachment.
-
-3. **Install Required Libraries**: Use the Arduino IDE to install the necessary libraries, including the MPU6050 library.
-
-4. **Upload the Code**: Open the Arduino sketch file in the IDE and upload it to your Arduino board.
-
-5. **Power On**: Power on the setup and observe how the servo motor adjusts the spoon's position to stabilize it based on MPU6050 sensor data.
-
-## Usage
-
-Once you have assembled the hardware and uploaded the code, you can use the tremor-stabilizing spoon as follows:
-
-1. Hold the spoon with your hand.
-
-2. The MPU6050 sensor will detect hand tremors and provide orientation data.
-
-3. The servo motor will adjust the spoon's position to compensate for the tremors, allowing you to eat more easily.
-
-4. You can adjust the stabilization settings by modifying the code as needed.
-
 ## Circuit Schematic
 
-![Circuit Schematic](images/circuit.png)
+<img src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/c6318e9b-1a89-4e37-bb13-85f4b1203c17" width=50%>
 _Description_: This schematic diagram illustrates the circuit design of the tremor-stabilizing spoon system, showing the connections between the MPU6050 sensor, servo motor, and other components.
 
 ## Flowdigrams
 
 **Flow Diagram 1: System Overview**
-
-![System Overview](flowdiagrams/tremor-control-flow.png)
+<img width="50%" alt="servo-feedback" src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/6900a002-7a4f-43f9-be85-821f3587bc1c">
 _Description_: This flow diagram provides an overview of the tremor-stabilizing spoon system.
 
 **Flow Diagram 2: Control Algorithm**
 
-![Control Algorithm](flowdiagrams/servo-feedback.png)
+<img width="50%" alt="tremor-control-flow" src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/6bef6e85-2d21-4549-b1d7-c30f75f31b56">
 _Description_: This flow diagram illustrates the control algorithm used to adjust the servo motor based on MPU6050 sensor data.
 
 **Flow Diagram 3: Data Processing**
 
-![Data Processing](flowdiagrams/soft-code.png)
+<img width="50%" alt="soft-code" src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/b6e40792-d0d4-4b2b-92e4-6f47d48ff2d3">
 _Description_: This flow diagram details the data processing steps within the system.
 
 ---
