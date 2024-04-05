@@ -13,6 +13,7 @@ This schematic diagram illustrates the circuit design of the tremor-stabilizing 
 ## Flowdigrams
 
 **Flow Diagram 1: System Overview**
+
 <img width="60%" alt="servo-feedback" src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/6900a002-7a4f-43f9-be85-821f3587bc1c">
 
 **Flow Diagram 2: Control Algorithm**
