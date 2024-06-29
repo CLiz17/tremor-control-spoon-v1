@@ -33,7 +33,3 @@ Check out the [Demo](https://youtu.be/UNjFe0RsDr0)
 ## Contributing
 
 Contributors are welcome. Create an issue or mail at liz362002@gmail.com for any suggestions or add-ons.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
