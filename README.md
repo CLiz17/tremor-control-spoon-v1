@@ -1,34 +1,38 @@
-# Tremor-Stabilizing Spoon with MPU6050 and Servo Motor
+## Tremor Control Spoon (Version 1)
+A Motorised Sensor Spoon to suppress the hand tremors while eating for the Parkinson’s or Essential Tremor Patients. The spoon uses Arduino Nano as the controller, MPU6050 as the IMU sensor which has an accelerometer and gyroscope. And a high-precision SG90 servo motor for actuation.
 
-<img src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/f103bdef-0cf3-43b6-a307-1bf3cfd875a3" width="50%">
+Check out the [Demo](https://youtu.be/UNjFe0RsDr0)
 
-This project is designed to create a tremor-stabilizing spoon using an MPU6050 sensor and a servo motor. The spoon's position is adjusted to compensate for hand tremors, allowing individuals with essential tremors, Parkinson's disease, or other conditions to eat more easily and independently.
+<img width=60% src="https://github.com/CLiz17/tremor-control-spoon-v1/assets/68838221/106cea7e-b0a9-4521-a985-b853374dfba3">
 
-## Circuit Schematic
 
-<img src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/c6318e9b-1a89-4e37-bb13-85f4b1203c17" width=60%>
 
-This schematic diagram illustrates the circuit design of the tremor-stabilizing spoon system, showing the connections between the MPU6050 sensor, servo motor, and other components.
+### Circuit Schematic
+
+<img width=60% src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/c6318e9b-1a89-4e37-bb13-85f4b1203c17">
+
 
 ## Flowdigrams
 
-**Flow Diagram 1: System Overview**
+**Flow Diagram 1: Active Tremor Control Flow Diagram**
 
-<img width="60%" alt="servo-feedback" src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/6900a002-7a4f-43f9-be85-821f3587bc1c">
+<img width=60% alt="active-tremor" src="https://github.com/CLiz17/tremor-control-spoon-v1/assets/68838221/45a1dbc3-31b7-48cf-8969-6e25b1512a85">
+
 
 **Flow Diagram 2: Control Algorithm**
 
-<img width="60%" alt="tremor-control-flow" src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/6bef6e85-2d21-4549-b1d7-c30f75f31b56">
+<img width=60% alt="servo-feedback" src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/6900a002-7a4f-43f9-be85-821f3587bc1c">
+
 
 **Flow Diagram 3: Data Processing**
 
-<img width="60%" alt="soft-code" src="https://github.com/CLiz17/tremor-stabilising-spoon/assets/68838221/b6e40792-d0d4-4b2b-92e4-6f47d48ff2d3">
+<img width=60% alt="code" src="https://github.com/CLiz17/tremor-control-spoon-v1/assets/68838221/fa410822-03ac-4057-9b3d-6b49306f723b">
 
 ---
 
 ## Contributing
 
-Contributions to this project are welcome. If you have suggestions for improvements, bug fixes, or additional features, please feel free to create an issue or submit a pull request.
+Contributors are welcome. Create an issue or mail at liz362002@gmail.com for any suggestions or add-ons.
 
 ## License
 
